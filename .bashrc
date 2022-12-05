@@ -6,6 +6,9 @@ alias h='history'
 alias which='type -a'
 alias ..='cd ..'
 
+alias taru='tar -xvf'
+alias tarz='tar -cvf'
+
 # Pretty-print of some PATH variables:
 alias path='echo -e ${PATH//:/\\n}'
 alias libpath='echo -e ${LD_LIBRARY_PATH//:/\\n}'
