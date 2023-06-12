@@ -48,6 +48,8 @@ alias gl='git log --oneline --decorate --graph'
 alias gb='git branch -a -v'
 alias gco='git checkout'
 alias gcb='git checkout -b'
+alias gca='git commit --amend'
+alias gcan='git commit --amend --no-edit'
 
 mcdir ()
 {
