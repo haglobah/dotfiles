@@ -33,8 +33,8 @@ alias libpath='echo -e ${LD_LIBRARY_PATH//:/\\n}'
 
 alias grep='grep --color=auto'
 
-alias ls='ls -h --color'
-alias ll="ls -lv --group-directories-first"
+alias ls='ls -h -G'
+alias ll='ls -lv'
 alias la='ll -A'
 alias lr='ll -R'           #  Recursive ls.
 
